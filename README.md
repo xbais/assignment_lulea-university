@@ -30,5 +30,8 @@ The data folder might not be provided because of upload limits on Github, you ca
 
 ---
 
-## Data Usage
-**Some files were provided by Lulea University, Sweden. If you want to use the code / work in your work, you will need to take additional consent from Lulea University of Technology, Sweden. Please refrain from using provided code / methodolgy in any research publication.**
+## Data & Code Usage
+- **Some files were provided by Lulea University, Sweden.**
+- **If you want to use the code / work in your work, you will need to take additional consent from Lulea University of Technology, Sweden.**
+- **Please refrain from using provided code / methodolgy in any research publication.**
+- **Some code has been borrowed from other Github repositories and linked as a submodule in this repo, due credits should be given to the respective auhors.**
