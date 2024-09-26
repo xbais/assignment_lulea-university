@@ -1,0 +1,91 @@
+body {
+	background-color: rgb(255, 255, 255);
+	color:black;
+	margin-top: 50px;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 50vw;
+	min-width: 20vw;
+}
+
+h1 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.last-modified {
+    width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+    padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 1em;
+	height:1.5em;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.line:hover {
+	background-color: rgb(255, 236, 125);
+	color: rgb(0, 0, 0);
+}
+
+.timetag {
+	color: blue;
+	position: absolute;
+	left: 0vh;
+}
+
+.line:hover .timetag {
+	background-color: aquamarine	;
+}
+
+/* The animation code */
+@keyframes progressbar {
+from {width: 0vw;}
+to {width: 100vw;}
+}
+
+/* The element to apply the animation to */
+#progressbar {
+width: 0px;
+height: 2em;
+background-color: rgba(0, 0, 0, 0);
+position: fixed;
+top: 0px;
+left: 0px;
+animation-name: progressbar;
+animation-duration: 5s;
+backdrop-filter: invert();
+z-index: 1000;
+} 
+
+#error {
+	background-color: rgb(255, 158, 158);
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	border-radius: 2em;
+}
+
+#error h2 {
+	text-align: center;
+	color: rgb(170, 0, 0);
+}
+
+#profiler_graph {
+	background-color: rgba(100,100,0,0.5);
+}
