@@ -1,0 +1,3 @@
+[submodule "task-4/code_attempt-2/yolov5"]
+	path = task-4/code_attempt-2/yolov5
+	url = https://github.com/ultralytics/yolov5
