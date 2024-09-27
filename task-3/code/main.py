@@ -181,17 +181,17 @@ class GridWorldEnv(gym.Env):
                     p_bar.n += 1 / self.visited.size
                     p_bar.refresh()
                 else:
-                    reward -= config.revisiting_penalty  # Penalty for revisiting
+                    reward += config.revisiting_penalty  # Penalty for revisiting
                     status['revisited'] = 1
                 self.visited[tuple(self.robot_pos)] = 1  # Mark cell as visited
                 
                 # Update heatmap
                 self.heatmap[tuple(self.robot_pos)] += 1
             else:
-                reward -= config.object_collision_penalty  # Collision with obstacle
+                reward += config.object_collision_penalty  # Collision with obstacle
                 status['collision_with_obstacle'] = 1
         else:
-            reward -= config.object_collision_penalty  # Collision with wall
+            reward += config.object_collision_penalty  # Collision with wall
             status['collision_with_wall'] = 1
         done = np.all(self.visited != 0)  # Task complete when all cells are visited
 
