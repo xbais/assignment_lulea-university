@@ -1,3 +1,9 @@
 [submodule "task-4/code_attempt-2/yolov5"]
 	path = task-4/code_attempt-2/yolov5
 	url = https://github.com/ultralytics/yolov5
+[submodule "task-2/code_attempt-1/TreeLearn"]
+	path = task-2/code_attempt-1/TreeLearn
+	url = https://github.com/ecker-lab/TreeLearn
+[submodule "task-2/code_attempt-2/forest_inventory_pipeline"]
+	path = task-2/code_attempt-2/forest_inventory_pipeline
+	url = https://github.com/PRBonn/forest_inventory_pipeline
