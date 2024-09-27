@@ -12,7 +12,8 @@ The assignment is divided into 4 tasks:
 
 ![visited_progression_with_colorbar](https://github.com/user-attachments/assets/d358109d-b8b8-4b9d-a1fb-8eef2d4db810)
 
-![task-4](https://github.com/user-attachments/assets/451c3e03-38b3-438b-a1a6-d2ffef3a2903) 
+![output](https://github.com/user-attachments/assets/f72c02dc-1845-4096-94a0-077958ce2e08)
+
 
 The repository is roughly structured as follows:
 ```bash
