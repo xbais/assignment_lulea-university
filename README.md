@@ -15,23 +15,21 @@ The assignment is divided into 4 tasks:
 ![task-4](https://github.com/user-attachments/assets/451c3e03-38b3-438b-a1a6-d2ffef3a2903) 
 
 The repository is roughly structured as follows:
-1. Task-1
-  - code
-    - main.py
-    - config.py
-    - headers.py
-    - ... 
-  - data
-3. Task-2
-  - code
-  - data
-4. Task-3
-  - code
-  - data
-5. Task-4
-  - code_attempt-1
-  - code_attempt-2
-  - data
+```bash
+├── README.md
+├── task-1
+│   ├── code
+│   └── data
+├── task-2
+│   ├── code_attempt-1
+│   ├── code_attempt-2
+│   └── code_attempt-3
+├── task-3
+│   └── code
+└── task-4
+    ├── code_attempt-1
+    └── code_attempt-2
+```
 
 The data folder might not be provided because of upload limits on Github, you can download them from the respective official websites and unpack the ZIP files in the respective data folder for the task. You may need to change any hard-coded paths specified in the `config.py` files for the respective tasks.
 
