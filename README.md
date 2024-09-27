@@ -1,5 +1,5 @@
 # Assignment - Lulea University, Sweden
-This repository hosts all the relevant code for the assignment completed as directed by Lulea University of Technology Sweden. Feel free to pick any code you find interesting or useful 😉.
+This repository hosts all the relevant code for the assignment completed as directed by Lulea University of Technology Sweden.
 ![task-1](https://github.com/user-attachments/assets/e56f1239-3be3-47cc-9351-717c5e5645c9)
 
 ![task2](https://github.com/user-attachments/assets/66f19ecc-cb16-4d95-9134-fc860f59a16d)
